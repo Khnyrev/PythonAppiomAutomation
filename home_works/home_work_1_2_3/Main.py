@@ -11,3 +11,6 @@ class MainClass:
         return self.__class_number
 
     __class_string = "Hello, world"
+
+    def get_class_string(self):
+        return self.__class_string
