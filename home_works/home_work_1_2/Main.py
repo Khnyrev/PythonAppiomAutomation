@@ -8,4 +8,6 @@ class MainClass:
     __class_number = 20
 
     def get_class_number(self):
-        return self.get_local_number()
+        return self.__class_number
+
+    __class_string = "Hello, world"
